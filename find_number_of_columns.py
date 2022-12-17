@@ -9,7 +9,7 @@ def find_number_of_columns(data):
     import csv
     data = csv.reader(f)
     l = list(data)[0]
-    return int(len(l))
+    return str(len(l))
 
 # Read the csv file
 f = open('data.csv')

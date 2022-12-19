@@ -7,7 +7,7 @@ def get_first_row(data):
         list: First row.
    """
    
-   return list(data)[0]
+   return list(data)[1]
 
 # Read the csv file
 import csv 

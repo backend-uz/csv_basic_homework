@@ -7,6 +7,10 @@ def get_first_row(data):
         list: First row.
    """
    
-   return
+   return list(data)[0]
 
 # Read the csv file
+import csv 
+f = open('data.csv', 'r')
+d = csv.reader(f)
+print(get_first_row(d))

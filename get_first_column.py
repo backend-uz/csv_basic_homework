@@ -6,11 +6,11 @@ def get_first_column(data):
     Return:
         list: First column.
     """
-    row = []
+    column = []
     d = data.split('\n')
     for i in d:
-     row.append(i.split(',')[0])
-    return row
+     column.append(i.split(',')[0])
+    return column
 
 # Read the csv file
 f = open('data.csv', 'r')
